@@ -65,8 +65,17 @@ h6 {
   background-size: cover;
 }
 
+.bg-future {
+  background-image: url("../img/12.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .bg-dark {
-  background-color: #212529 !important;
+  background-color: #212529c7 !important;
 }
 
 .text-faded {
@@ -268,6 +277,6 @@ header.masthead p {
   background-color: #ee4b28 !important;
 }
 
-.btn-primary:active, .btn-primary:focus {
+.btn1-primary:active, .btn1-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
